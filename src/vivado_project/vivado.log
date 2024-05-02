@@ -1,0 +1,2185 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Apr 22 13:39:09 2024
+# Process ID: 2740
+# Current directory: C:/Users/sc746/Downloads/processor/processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent764 C:\Users\sc746\Downloads\processor\processor\project_1.xpr
+# Log file: C:/Users/sc746/Downloads/processor/processor/vivado.log
+# Journal file: C:/Users/sc746/Downloads/processor/processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sc746/Downloads/processor/processor/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/350 final projecty' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/sc746/Downloads/processor/processor/project_1.gen/sources_1', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/350 final projecty/project_1.gen/sources_1'.
+INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/Users/project_1/project_1.ip_user_files'; using path 'C:/Users/sc746/project_1/project_1.ip_user_files' instead.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/RAM.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/RAM.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/ROM.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/ROM.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/add.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/add.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/alu.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/alu.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bit32_sign_extender.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/bit32_sign_extender.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_and.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/bitwise_and.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_or.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/bitwise_or.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/cla.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/cla.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/complement.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/complement.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/decoder32.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/decoder32.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/dffe_ref.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/dffe_ref.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/divide.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide_counter.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/divide_counter.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/left_shift.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/left_shift.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multdiv.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/multdiv.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_control.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/multiplication_control.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_counter.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/multiplication_counter.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiply.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/multiply.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_2.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/mux_2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_4.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/mux_4.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_8.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/mux_8.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/my_tri.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/my_tri.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/processor.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/processor.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/regfile.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/regfile.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_32.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_2.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_32_2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_3.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_32_3.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_4.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_32_4.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_64.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_64.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_gen.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen65.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_gen65.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/right_shift.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/right_shift.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/subtract.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/subtract.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/Wrapper.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper_tb.v', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/Wrapper_tb.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/processor/Downloads/lab-3-master/lab-3-master/master.xdc', nor could it be found using path 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/lab-3-master/lab-3-master/master.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.172 ; gain = 0.000
+update_compile_order -fileset sources_1
+exiexport_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/RAM.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/ROM.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper_tb.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/add.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/alu.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bit32_sign_extender.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_and.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_or.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/cla.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/complement.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/decoder32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/dffe_ref.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide_counter.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/left_shift.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multdiv.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_control.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_counter.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiply.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_8.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/my_tri.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/processor.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/regfile.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_3.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_64.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen65.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/right_shift.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/subtract.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/Downloads/processor/processor/RAM.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/ROM.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper_tb.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/add.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/alu.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bit32_sign_extender.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_and.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_or.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/cla.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/complement.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/decoder32.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/dffe_ref.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide_counter.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/left_shift.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multdiv.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_control.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_counter.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiply.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_2.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_4.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_8.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/my_tri.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/processor.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/regfile.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_2.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_3.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_4.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_64.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen65.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/right_shift.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/subtract.v}
+add_files -norecurse {C:/Users/sc746/Downloads/processor/processor/loop.mem C:/Users/sc746/Downloads/processor/processor/GameScene.mem C:/Users/sc746/Downloads/processor/processor/addi_basic.mem C:/Users/sc746/Downloads/processor/processor/block4.mem C:/Users/sc746/Downloads/processor/processor/StartScene.mem C:/Users/sc746/Downloads/processor/processor/block3.mem C:/Users/sc746/Downloads/processor/processor/colors.mem C:/Users/sc746/Downloads/processor/processor/block2.mem C:/Users/sc746/Downloads/processor/processor/block5.mem C:/Users/sc746/Downloads/processor/processor/EndScene.mem C:/Users/sc746/Downloads/processor/processor/ascii.mem C:/Users/sc746/Downloads/processor/processor/block6.mem C:/Users/sc746/Downloads/processor/processor/sprites.mem C:/Users/sc746/Downloads/processor/processor/block1.mem}
+add_files -norecurse {C:/Users/sc746/Downloads/processor/processor/subtract.v C:/Users/sc746/Downloads/processor/processor/register_gen65.v C:/Users/sc746/Downloads/processor/processor/Ps2Interface.vhd C:/Users/sc746/Downloads/processor/processor/divide.v C:/Users/sc746/Downloads/processor/processor/multiply.v C:/Users/sc746/Downloads/processor/processor/dffe_ref.v C:/Users/sc746/Downloads/processor/processor/register_64.v C:/Users/sc746/Downloads/processor/processor/ram_vga.v C:/Users/sc746/Downloads/processor/processor/decoder32.v C:/Users/sc746/Downloads/processor/processor/right_shift.v C:/Users/sc746/Downloads/processor/processor/cla.v C:/Users/sc746/Downloads/processor/processor/register_32.v C:/Users/sc746/Downloads/processor/processor/register_32_4.v C:/Users/sc746/Downloads/processor/processor/register_32_2.v C:/Users/sc746/Downloads/processor/processor/VGAController.v C:/Users/sc746/Downloads/processor/processor/my_tri.v C:/Users/sc746/Downloads/processor/processor/bitwise_or.v C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v C:/Users/sc746/Downloads/processor/processor/register_gen.v C:/Users/sc746/Downloads/processor/processor/multiplication_control.v C:/Users/sc746/Downloads/processor/processor/mux_8.v C:/Users/sc746/Downloads/processor/processor/left_shift.v C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v C:/Users/sc746/Downloads/processor/processor/RAM.v C:/Users/sc746/Downloads/processor/processor/bitwise_and.v C:/Users/sc746/Downloads/processor/processor/VGATimingGenerator.v C:/Users/sc746/Downloads/processor/processor/regfile.v C:/Users/sc746/Downloads/processor/processor/Wrapper.v C:/Users/sc746/Downloads/processor/processor/complement.v C:/Users/sc746/Downloads/processor/processor/processor.v C:/Users/sc746/Downloads/processor/processor/alu.v C:/Users/sc746/Downloads/processor/processor/ROM.v C:/Users/sc746/Downloads/processor/processor/register_32_3.v C:/Users/sc746/Downloads/processor/processor/add.v C:/Users/sc746/Downloads/processor/processor/divide_counter.v C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v C:/Users/sc746/Downloads/processor/processor/mux_2.v C:/Users/sc746/Downloads/processor/processor/multdiv.v C:/Users/sc746/Downloads/processor/processor/mux_4.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/lab-3-master/lab-3-master/master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/sc746/Downloads/processor/Downloads/lab-3-master/lab-3-master/master.xdc
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/sc746/Downloads/processor/processor/constraints.xdc
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 13:42:05 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 13:42:05 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 13:44:25 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1329.191 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+add_files -norecurse C:/Users/sc746/Downloads/processor/processor/testLoop.mem
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 14:05:04 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 14:05:04 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 14:07:10 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 3084.387 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 14:10:13 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3084.387 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 14:10:59 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 14:11:08 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 14:12:18 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 14:13:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 15:02:14 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 15:02:14 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 15:04:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 3149.211 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/add.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_32_2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_32_4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/alu.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/mux_4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/mux_8.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/dffe_ref.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/multdiv.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_32_3.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/processor/add.v C:/Users/sc746/Downloads/processor/processor/register_32.v C:/Users/sc746/Downloads/processor/processor/register_32_2.v C:/Users/sc746/Downloads/processor/processor/register_32_4.v C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v C:/Users/sc746/Downloads/processor/processor/alu.v C:/Users/sc746/Downloads/processor/processor/mux_4.v C:/Users/sc746/Downloads/processor/processor/mux_8.v C:/Users/sc746/Downloads/processor/processor/dffe_ref.v C:/Users/sc746/Downloads/processor/processor/multdiv.v C:/Users/sc746/Downloads/processor/processor/register_32_3.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/processor.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/processor.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/Wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/Wrapper.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/ROM.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/ROM.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/regfile.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/decoder32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_gen.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/processor/regfile.v C:/Users/sc746/Downloads/processor/processor/decoder32.v C:/Users/sc746/Downloads/processor/processor/register_gen.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/RAM.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/RAM.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/left_shift.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/right_shift.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/divide.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/multiply.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/subtract.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/processor/left_shift.v C:/Users/sc746/Downloads/processor/processor/right_shift.v C:/Users/sc746/Downloads/processor/processor/divide.v C:/Users/sc746/Downloads/processor/processor/multiply.v C:/Users/sc746/Downloads/processor/processor/subtract.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/bitwise_and.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/bitwise_or.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/cla.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/my_tri.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/processor/bitwise_and.v C:/Users/sc746/Downloads/processor/processor/bitwise_or.v C:/Users/sc746/Downloads/processor/processor/cla.v C:/Users/sc746/Downloads/processor/processor/my_tri.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/divide_counter.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/divide_counter.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_64.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/register_64.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_gen65.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/register_gen65.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/mux_2.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/mux_2.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/complement.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/complement.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/multiplication_control.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/multiplication_control.v
+add_files -norecurse {C:/Users/sc746/Downloads/processor/processor/subtract.v C:/Users/sc746/Downloads/processor/processor/register_gen65.v C:/Users/sc746/Downloads/processor/processor/mux_8.v C:/Users/sc746/Downloads/processor/processor/divide.v C:/Users/sc746/Downloads/processor/processor/left_shift.v C:/Users/sc746/Downloads/processor/processor/multiply.v C:/Users/sc746/Downloads/processor/processor/dffe_ref.v C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v C:/Users/sc746/Downloads/processor/processor/RAM.v C:/Users/sc746/Downloads/processor/processor/register_64.v C:/Users/sc746/Downloads/processor/processor/bitwise_and.v C:/Users/sc746/Downloads/processor/processor/regfile.v C:/Users/sc746/Downloads/processor/processor/Wrapper.v C:/Users/sc746/Downloads/processor/processor/complement.v C:/Users/sc746/Downloads/processor/processor/decoder32.v C:/Users/sc746/Downloads/processor/processor/processor.v C:/Users/sc746/Downloads/processor/processor/alu.v C:/Users/sc746/Downloads/processor/processor/right_shift.v C:/Users/sc746/Downloads/processor/processor/cla.v C:/Users/sc746/Downloads/processor/processor/ROM.v C:/Users/sc746/Downloads/processor/processor/register_32.v C:/Users/sc746/Downloads/processor/processor/register_32_4.v C:/Users/sc746/Downloads/processor/processor/register_32_3.v C:/Users/sc746/Downloads/processor/processor/add.v C:/Users/sc746/Downloads/processor/processor/register_32_2.v C:/Users/sc746/Downloads/processor/processor/divide_counter.v C:/Users/sc746/Downloads/processor/processor/my_tri.v C:/Users/sc746/Downloads/processor/processor/bitwise_or.v C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v C:/Users/sc746/Downloads/processor/processor/register_gen.v C:/Users/sc746/Downloads/processor/processor/multiplication_control.v C:/Users/sc746/Downloads/processor/processor/mux_2.v C:/Users/sc746/Downloads/processor/processor/multdiv.v C:/Users/sc746/Downloads/processor/processor/mux_4.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 15:34:30 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 15:34:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 15:36:55 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 3152.793 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 15:39:04 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 15:40:20 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 15:52:32 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 15:52:32 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 15:54:10 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 15:56:36 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 15:56:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 15:58:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 16:22:17 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 16:22:17 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 16:34:37 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 16:34:37 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 16:41:31 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 16:41:31 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 16:41:59 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 16:41:59 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 16:42:47 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 16:42:47 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 16:44:01 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 16:44:01 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 16:48:25 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 3183.695 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 16:53:53 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 16:53:53 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 16:56:19 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 3183.695 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+add_files -norecurse C:/Users/sc746/Downloads/processor/processor/Tetris.mem
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 17:05:28 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 17:05:28 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 17:09:00 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 17:12:52 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 17:12:52 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 17:14:54 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 17:37:06 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 17:37:06 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 17:43:03 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 17:43:03 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 17:53:16 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 17:53:16 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 17:54:16 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 17:54:16 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 17:58:22 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 17:58:22 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:04:28 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:04:28 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:05:37 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:05:37 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:06:12 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:06:12 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:09:18 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:09:18 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:19:24 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:19:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:22:52 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:22:52 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 18:24:44 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3513.957 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 121 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.198 . Memory (MB): peak = 4200.027 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.198 . Memory (MB): peak = 4200.027 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4200.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 4333.543 ; gain = 1126.176
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:26 . Memory (MB): peak = 4361.938 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 18:33:06 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:34:47 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:34:47 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:37:13 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:37:14 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:39:24 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:39:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:41:06 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:41:06 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:43:20 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:43:20 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 18:44:06 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:49:40 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:49:40 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:51:28 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:51:28 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 18:52:04 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 18:52:04 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:04:06 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 19:04:06 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:05:33 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 19:05:33 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 19:07:08 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:09:36 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 19:09:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 19:13:09 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+close_hw_manager
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:33:04 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 19:33:04 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property top VGAController [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:36:00 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 19:36:00 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:37:58 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 19:37:58 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 19:42:01 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+refresh_design
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.250 . Memory (MB): peak = 4525.133 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2443 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Common 17-344] 'refresh_design' was cancelled
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4525.133 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:45:44 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 19:46:07 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:47:46 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 19:49:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 19:53:21 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 19:53:21 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 19:57:25 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:01:36 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:01:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:02:16 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:02:16 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:03:44 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:03:44 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:04:26 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:04:26 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:11:10 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:11:10 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 20:15:05 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4525.133 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:21:59 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:21:59 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+close_hw_manager
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 20:26:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 4525.133 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:28:00 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:28:00 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 20:31:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:36:21 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:36:21 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 20:40:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:42:10 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:42:10 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 20:46:13 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: VGAController
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+2 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-344] 'synth_design' was cancelled
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 20:55:52 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 20:55:52 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 21:00:19 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 4526.008 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 21:17:17 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 21:17:17 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 21:18:28 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 21:18:28 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 21:19:29 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 21:19:29 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 21:21:15 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 21:26:15 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 21:26:15 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 21:28:03 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 21:29:16 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 21:29:26 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 21:30:09 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 21:31:29 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 21:37:12 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 21:37:12 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 21:38:59 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 21:41:17 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 21:41:17 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+close_hw_manager
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 21:45:44 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4562.754 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4562.754 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 22:05:54 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 22:05:55 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 22:09:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4562.754 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 22:18:48 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 22:18:49 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+close_hw_manager
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/sprites.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/sprites.mem
+add_files -norecurse C:/Users/sc746/Downloads/processor/processor/levels.mem
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 22:19:51 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 22:20:33 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 22:21:48 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 4562.754 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 22:23:20 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 22:23:20 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 22:25:04 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 22:33:24 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 22:33:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Mon Apr 22 22:37:29 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 22:42:19 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 22:42:19 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 22:46:17 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 4570.102 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 22:54:46 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 22:54:57 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 22:56:43 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 22:59:11 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 23:03:57 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Apr 22 23:05:16 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 23:07:03 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 23:09:29 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 23:14:01 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 23:14:01 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 23:18:00 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 4570.102 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+file mkdir C:/Users/sc746/Downloads/processor/processor/project_1.srcs/sources_1/new
+close [ open C:/Users/sc746/Downloads/processor/processor/project_1.srcs/sources_1/new/bcd.v w ]
+add_files C:/Users/sc746/Downloads/processor/processor/project_1.srcs/sources_1/new/bcd.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 23:25:55 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 23:25:55 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 23:30:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 4577.422 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Mon Apr 22 23:34:36 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Mon Apr 22 23:34:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+close_hw_manager
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Apr 22 23:38:47 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4579.051 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+CRITICAL WARNING: [filemgmt 20-742] The top module "VGAController" specified for this project can not be validated. The current project is using automatic hierarchy update mode, and hence a new suitable replacement top will be automatically selected. If this is not desired, please change the hierarchy update mode to one of the manual compile order modes first, and then set top to any desired value.
+Resolution: To switch to manual update order go to the Sources view, right-click on any node in the hierarchy and in the context menu select: 'Hierarchy Update' option 'No Update' or run the following Tcl Command: set_property source_mgmt_mode None [current_project] (which is the Manual Compile Order mode).
+[Tue Apr 23 00:05:57 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 00:05:57 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1
+
+set_property top VGAController [current_fileset]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 00:07:31 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 00:07:31 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Apr 23 00:10:11 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 00:15:54 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 00:15:54 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Apr 23 00:17:25 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 00:21:00 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 00:21:00 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Apr 23 00:23:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 00:28:36 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 00:28:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Apr 23 00:30:05 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4599.816 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 4757.910 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 4757.910 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4757.910 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 4757.910 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 00:32:06 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 00:32:06 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Apr 23 00:34:12 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 4771.762 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.307 . Memory (MB): peak = 4835.879 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.307 . Memory (MB): peak = 4835.879 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 4982.625 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 00:54:04 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 00:54:04 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Apr 23 00:56:37 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 5180.707 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 141 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.271 . Memory (MB): peak = 5180.707 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.271 . Memory (MB): peak = 5180.707 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 5180.707 ; gain = 32.750
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 01:06:54 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 01:06:54 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Apr 23 01:11:33 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 26 2021-13:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 5246.383 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D033A
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 01:23:38 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 01:23:38 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+[Tue Apr 23 01:25:21 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/synth_1/runme.log
+[Tue Apr 23 01:25:21 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/testLoop.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/testLoop.mem
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/loop.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/loop.mem
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/colors.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/colors.mem
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/addi_basic.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/addi_basic.mem
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Apr 23 01:30:31 2024] Launched impl_1...
+Run output will be captured here: C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+add_files -norecurse C:/Users/sc746/Downloads/processor/processor/digits.mem

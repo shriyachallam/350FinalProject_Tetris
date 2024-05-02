@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Apr 22 13:37:01 2024
+# Process ID: 7600
+# Current directory: C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/350 final projecty
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14636 C:\Users\sc746\Downloads\21-20240422T173250Z-001\4-21\350 final projecty\project_1.xpr
+# Log file: C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/350 final projecty/vivado.log
+# Journal file: C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/350 final projecty\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/350 final projecty/project_1.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/sc746/project_1' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/350 final projecty/project_1.gen/sources_1', nor could it be found using path 'C:/Users/sc746/project_1/project_1.gen/sources_1'.
+INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/350 final projecty/project_1.ip_user_files'; using path 'C:/Users/sc746/project_1/project_1.ip_user_files' instead.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/RAM.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/RAM.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/ROM.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/ROM.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/add.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/add.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/alu.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/alu.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/bit32_sign_extender.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/bitwise_and.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/bitwise_and.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/bitwise_or.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/bitwise_or.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/cla.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/cla.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/complement.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/complement.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/decoder32.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/decoder32.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/dffe_ref.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/dffe_ref.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/divide.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/divide.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/divide_counter.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/divide_counter.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/left_shift.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/left_shift.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/multdiv.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/multdiv.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/multiplication_control.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/multiplication_control.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/multiplication_counter.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/multiply.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/multiply.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/mux_2.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/mux_2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/mux_4.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/mux_4.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/mux_8.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/mux_8.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/my_tri.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/my_tri.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/processor.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/processor.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/regfile.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/regfile.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_32.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/register_32.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_32_2.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/register_32_2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_32_3.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/register_32_3.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_32_4.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/register_32_4.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_64.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/register_64.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_gen.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/register_gen.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/register_gen65.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/register_gen65.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/right_shift.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/right_shift.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/subtract.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/subtract.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/Wrapper.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/Wrapper.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/processor/processor/Wrapper_tb.v', nor could it be found using path 'C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/sc746/Downloads/21-20240422T173250Z-001/4-21/Downloads/lab-3-master/lab-3-master/master.xdc', nor could it be found using path 'C:/Users/sc746/Downloads/lab-3-master/lab-3-master/master.xdc'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 22 13:38:28 2024...

@@ -1,0 +1,1064 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Apr 22 13:39:09 2024
+# Process ID: 2740
+# Current directory: C:/Users/sc746/Downloads/processor/processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent764 C:\Users\sc746\Downloads\processor\processor\project_1.xpr
+# Log file: C:/Users/sc746/Downloads/processor/processor/vivado.log
+# Journal file: C:/Users/sc746/Downloads/processor/processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sc746/Downloads/processor/processor/project_1.xpr
+update_compile_order -fileset sources_1
+_1
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/RAM.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/ROM.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper_tb.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/add.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/alu.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bit32_sign_extender.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_and.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_or.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/cla.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/complement.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/decoder32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/dffe_ref.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide_counter.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/left_shift.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multdiv.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_control.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_counter.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiply.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_8.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/my_tri.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/processor.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/regfile.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_3.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_64.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen65.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/right_shift.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/processor/processor/subtract.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/Downloads/processor/processor/RAM.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/ROM.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/Wrapper_tb.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/add.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/alu.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bit32_sign_extender.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_and.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/bitwise_or.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/cla.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/complement.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/decoder32.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/dffe_ref.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/divide_counter.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/left_shift.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multdiv.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_control.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiplication_counter.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/multiply.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_2.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_4.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/mux_8.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/my_tri.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/processor.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/regfile.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_2.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_3.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_32_4.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_64.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/register_gen65.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/right_shift.v C:/Users/sc746/Downloads/processor/Downloads/processor/processor/subtract.v}
+add_files -norecurse {C:/Users/sc746/Downloads/processor/processor/loop.mem C:/Users/sc746/Downloads/processor/processor/GameScene.mem C:/Users/sc746/Downloads/processor/processor/addi_basic.mem C:/Users/sc746/Downloads/processor/processor/block4.mem C:/Users/sc746/Downloads/processor/processor/StartScene.mem C:/Users/sc746/Downloads/processor/processor/block3.mem C:/Users/sc746/Downloads/processor/processor/colors.mem C:/Users/sc746/Downloads/processor/processor/block2.mem C:/Users/sc746/Downloads/processor/processor/block5.mem C:/Users/sc746/Downloads/processor/processor/EndScene.mem C:/Users/sc746/Downloads/processor/processor/ascii.mem C:/Users/sc746/Downloads/processor/processor/block6.mem C:/Users/sc746/Downloads/processor/processor/sprites.mem C:/Users/sc746/Downloads/processor/processor/block1.mem}
+add_files -norecurse {C:/Users/sc746/Downloads/processor/processor/subtract.v C:/Users/sc746/Downloads/processor/processor/register_gen65.v C:/Users/sc746/Downloads/processor/processor/Ps2Interface.vhd C:/Users/sc746/Downloads/processor/processor/divide.v C:/Users/sc746/Downloads/processor/processor/multiply.v C:/Users/sc746/Downloads/processor/processor/dffe_ref.v C:/Users/sc746/Downloads/processor/processor/register_64.v C:/Users/sc746/Downloads/processor/processor/ram_vga.v C:/Users/sc746/Downloads/processor/processor/decoder32.v C:/Users/sc746/Downloads/processor/processor/right_shift.v C:/Users/sc746/Downloads/processor/processor/cla.v C:/Users/sc746/Downloads/processor/processor/register_32.v C:/Users/sc746/Downloads/processor/processor/register_32_4.v C:/Users/sc746/Downloads/processor/processor/register_32_2.v C:/Users/sc746/Downloads/processor/processor/VGAController.v C:/Users/sc746/Downloads/processor/processor/my_tri.v C:/Users/sc746/Downloads/processor/processor/bitwise_or.v C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v C:/Users/sc746/Downloads/processor/processor/register_gen.v C:/Users/sc746/Downloads/processor/processor/multiplication_control.v C:/Users/sc746/Downloads/processor/processor/mux_8.v C:/Users/sc746/Downloads/processor/processor/left_shift.v C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v C:/Users/sc746/Downloads/processor/processor/RAM.v C:/Users/sc746/Downloads/processor/processor/bitwise_and.v C:/Users/sc746/Downloads/processor/processor/VGATimingGenerator.v C:/Users/sc746/Downloads/processor/processor/regfile.v C:/Users/sc746/Downloads/processor/processor/Wrapper.v C:/Users/sc746/Downloads/processor/processor/complement.v C:/Users/sc746/Downloads/processor/processor/processor.v C:/Users/sc746/Downloads/processor/processor/alu.v C:/Users/sc746/Downloads/processor/processor/ROM.v C:/Users/sc746/Downloads/processor/processor/register_32_3.v C:/Users/sc746/Downloads/processor/processor/add.v C:/Users/sc746/Downloads/processor/processor/divide_counter.v C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v C:/Users/sc746/Downloads/processor/processor/mux_2.v C:/Users/sc746/Downloads/processor/processor/multdiv.v C:/Users/sc746/Downloads/processor/processor/mux_4.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/Downloads/lab-3-master/lab-3-master/master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/sc746/Downloads/processor/Downloads/lab-3-master/lab-3-master/master.xdc
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/sc746/Downloads/processor/processor/constraints.xdc
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+add_files -norecurse C:/Users/sc746/Downloads/processor/processor/testLoop.mem
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/add.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_32_2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_32_4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/alu.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/mux_4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/mux_8.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/dffe_ref.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/multdiv.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_32_3.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/processor/add.v C:/Users/sc746/Downloads/processor/processor/register_32.v C:/Users/sc746/Downloads/processor/processor/register_32_2.v C:/Users/sc746/Downloads/processor/processor/register_32_4.v C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v C:/Users/sc746/Downloads/processor/processor/alu.v C:/Users/sc746/Downloads/processor/processor/mux_4.v C:/Users/sc746/Downloads/processor/processor/mux_8.v C:/Users/sc746/Downloads/processor/processor/dffe_ref.v C:/Users/sc746/Downloads/processor/processor/multdiv.v C:/Users/sc746/Downloads/processor/processor/register_32_3.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/processor.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/processor.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/Wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/Wrapper.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/ROM.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/ROM.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/regfile.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/decoder32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_gen.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/processor/regfile.v C:/Users/sc746/Downloads/processor/processor/decoder32.v C:/Users/sc746/Downloads/processor/processor/register_gen.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/RAM.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/RAM.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/left_shift.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/right_shift.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/divide.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/multiply.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/subtract.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/processor/left_shift.v C:/Users/sc746/Downloads/processor/processor/right_shift.v C:/Users/sc746/Downloads/processor/processor/divide.v C:/Users/sc746/Downloads/processor/processor/multiply.v C:/Users/sc746/Downloads/processor/processor/subtract.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/bitwise_and.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/bitwise_or.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/cla.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/my_tri.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/sc746/Downloads/processor/processor/bitwise_and.v C:/Users/sc746/Downloads/processor/processor/bitwise_or.v C:/Users/sc746/Downloads/processor/processor/cla.v C:/Users/sc746/Downloads/processor/processor/my_tri.v}
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/divide_counter.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/divide_counter.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_64.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/register_64.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/register_gen65.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/register_gen65.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/mux_2.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/mux_2.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/complement.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/complement.v
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/multiplication_control.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/multiplication_control.v
+add_files -norecurse {C:/Users/sc746/Downloads/processor/processor/subtract.v C:/Users/sc746/Downloads/processor/processor/register_gen65.v C:/Users/sc746/Downloads/processor/processor/mux_8.v C:/Users/sc746/Downloads/processor/processor/divide.v C:/Users/sc746/Downloads/processor/processor/left_shift.v C:/Users/sc746/Downloads/processor/processor/multiply.v C:/Users/sc746/Downloads/processor/processor/dffe_ref.v C:/Users/sc746/Downloads/processor/processor/bit32_sign_extender.v C:/Users/sc746/Downloads/processor/processor/RAM.v C:/Users/sc746/Downloads/processor/processor/register_64.v C:/Users/sc746/Downloads/processor/processor/bitwise_and.v C:/Users/sc746/Downloads/processor/processor/regfile.v C:/Users/sc746/Downloads/processor/processor/Wrapper.v C:/Users/sc746/Downloads/processor/processor/complement.v C:/Users/sc746/Downloads/processor/processor/decoder32.v C:/Users/sc746/Downloads/processor/processor/processor.v C:/Users/sc746/Downloads/processor/processor/alu.v C:/Users/sc746/Downloads/processor/processor/right_shift.v C:/Users/sc746/Downloads/processor/processor/cla.v C:/Users/sc746/Downloads/processor/processor/ROM.v C:/Users/sc746/Downloads/processor/processor/register_32.v C:/Users/sc746/Downloads/processor/processor/register_32_4.v C:/Users/sc746/Downloads/processor/processor/register_32_3.v C:/Users/sc746/Downloads/processor/processor/add.v C:/Users/sc746/Downloads/processor/processor/register_32_2.v C:/Users/sc746/Downloads/processor/processor/divide_counter.v C:/Users/sc746/Downloads/processor/processor/my_tri.v C:/Users/sc746/Downloads/processor/processor/bitwise_or.v C:/Users/sc746/Downloads/processor/processor/multiplication_counter.v C:/Users/sc746/Downloads/processor/processor/Wrapper_tb.v C:/Users/sc746/Downloads/processor/processor/register_gen.v C:/Users/sc746/Downloads/processor/processor/multiplication_control.v C:/Users/sc746/Downloads/processor/processor/mux_2.v C:/Users/sc746/Downloads/processor/processor/multdiv.v C:/Users/sc746/Downloads/processor/processor/mux_4.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+add_files -norecurse C:/Users/sc746/Downloads/processor/processor/Tetris.mem
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+close_hw_manager
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top VGAController [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+refresh_design
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+close_hw_manager
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+close_hw_manager
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run impl_1
+close_hw_manager
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/sprites.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/sprites.mem
+add_files -norecurse C:/Users/sc746/Downloads/processor/processor/levels.mem
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+file mkdir C:/Users/sc746/Downloads/processor/processor/project_1.srcs/sources_1/new
+close [ open C:/Users/sc746/Downloads/processor/processor/project_1.srcs/sources_1/new/bcd.v w ]
+add_files C:/Users/sc746/Downloads/processor/processor/project_1.srcs/sources_1/new/bcd.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+close_hw_manager
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top VGAController [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_design
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/testLoop.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/testLoop.mem
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/loop.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/loop.mem
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/colors.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/colors.mem
+export_ip_user_files -of_objects  [get_files C:/Users/sc746/Downloads/processor/processor/addi_basic.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/sc746/Downloads/processor/processor/addi_basic.mem
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sc746/Downloads/processor/processor/project_1.runs/impl_1/VGAController.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+add_files -norecurse C:/Users/sc746/Downloads/processor/processor/digits.mem
